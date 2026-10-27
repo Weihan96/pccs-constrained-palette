@@ -1,0 +1,5 @@
+# Local research provenance; preserve locally, exclude from public releases.
+/references/original-request.md
+/references/side-chat-source/
+.DS_Store
+__pycache__/

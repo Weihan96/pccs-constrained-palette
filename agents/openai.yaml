@@ -1,0 +1,4 @@
+interface:
+  display_name: "PCCS 约束配色"
+  short_description: "从已选与可选材料出发，用 PCCS 组织配色、检查空间主次并交付色值表"
+  default_prompt: "使用 $pccs-constrained-palette，根据我已选的材料、固定环境和可选饰面推荐一套配色，先列约束，再给 PCCS 名称与编号优先、HEX 单独成列的表格，并解释主次与映射依据。"
