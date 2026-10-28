@@ -33,11 +33,15 @@ macOS/Linux 默认个人目录使用 `~`；Windows 使用用户主目录。上�
 - “这组中差色相能用吗？请分别检查共同色调、空间主次和我想要的柔和差异。”
 - “根据这些样板照片做近似映射，把 PCCS 名称、编号、HEX 和映射依据分开列。”
 
-流程：锁定条件 → 映射固定项与候选 → 筛选并组织配色 → 检查空间主次 → 给出一个推荐及必要比较。
+内部工作：锁定条件 → 映射固定项与候选 → 筛选并组织配色 → 检查空间主次。
 
-| PCCS 名称与编号 | 应用位置 | 材料／饰面 | HEX 屏幕参考 | 配色角色与关系 | 映射依据／状态 |
-|---|---|---|---|---|---|
-| 色调名、色相名与编号，或待确认 | 实际位置 | 真实可选材料 | 有依据的六位色值，或待确认 | 重点／背景／过渡及关系 | 来源、近似性质与限制 |
+汇报顺序：一句明确推荐 → 材料色样与 PCCS 参考色并置、主方案表 → 约束、未选理由、来源与不确定性。映射方法灵活，以用户对并置色样的视觉反馈核对接近程度；未确认标暂定，已确认且未变化不重复审批。屏幕确认不等于实物验收或官方标准映射。
+
+| PCCS 名称与编号 | 应用位置 | 材料／饰面 | HEX 屏幕参考 | 视觉角色 | 配色关系 | 映射依据／状态 |
+|---|---|---|---|---|---|---|
+| 色调名、色相名与编号，或待确认 | 实际位置 | 真实可选材料 | 有依据的六位色值，或待确认 | 重点／背景／过渡 | 与明确对象比较：共同点、变化及作用 | 来源、近似性质、视觉确认状态与限制 |
+
+[查看含并置色样的报告样例](references/report-example.html)
 
 ### 限制
 
@@ -74,7 +78,7 @@ The installer handles platform-specific home directories. Check an existing inst
 - “Can this medium hue-distance pairing work? Check shared tone and visual hierarchy separately.”
 - “Map these sample photos approximately, with separate PCCS, HEX, and evidence columns.”
 
-The result records PCCS names/codes, location, actual material, screen HEX, palette role, and mapping evidence. It distinguishes colour discrimination, similarity, harmony, preference, and hierarchy. Missing evidence remains unknown rather than becoming a fabricated standard code.
+The report starts with one recommendation, then side-by-side material and proposed PCCS swatches and the main palette table, followed by constraints, rejected alternatives and evidence. Each relationship names its comparison target; visual role and colour relationship have separate columns. Mapping methods remain flexible. Ask whether the swatches feel close, keep unconfirmed matches provisional, and reuse unchanged confirmations. Screen confirmation is neither physical sample acceptance nor an official standard mapping. The result records PCCS names/codes, location, actual material, screen HEX and mapping evidence. It distinguishes colour discrimination, similarity, harmony, preference, and hierarchy. Missing evidence remains unknown rather than becoming a fabricated standard code.
 
 ### Limits and troubleshooting
 
